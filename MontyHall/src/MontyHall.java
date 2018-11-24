@@ -23,7 +23,6 @@ public class MontyHall
 	}
 	System.out.print("would you like to switch doors: ");
 	String switchAnswer = keyboard.next();
-	
 	if (switchAnswer.equals("yes"))
 	{
 		if (carDoor == 6-guessDoor-remainingDoor)
