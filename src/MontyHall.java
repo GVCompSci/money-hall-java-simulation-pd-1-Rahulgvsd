@@ -34,6 +34,7 @@ public class MontyHall
 		{
 			System.out.println("You lost");
 		}
+	}
 	if (switchAnswer.equals("no"))
 	{
 		if (carDoor == guessDoor)
@@ -45,7 +46,7 @@ public class MontyHall
 			System.out.println("you lost");
 		}
 	}
-	}
+	
 	
 	
 	
